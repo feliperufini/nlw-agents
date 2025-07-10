@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:3333
+
+###
+# Get status
+GET {{baseUrl}}/status
+
+###
+# Get rooms
+GET {{baseUrl}}/rooms
